@@ -1,0 +1,482 @@
+@charset: 'UTF-8';
+
+/* CSS for home page */
+
+ .jordans:hover,button:hover,.hideMe:hover,#icon:hover,#login:hover,#notMember u:hover,.shoeSize:hover,.x:hover,#exitImg:hover,.sizy:hover,#remove:hover{
+            cursor: pointer;
+        }
+
+button:focus,input[type=button]:focus{
+    outline: 0;
+}
+.jordans:hover{
+    opacity: .5
+}
+    
+        *{
+            font-family: 'Fjalla One', sans-serif;
+        }
+        nav{
+            margin-bottom: 40px;
+            height: 60px;
+            
+           
+        }
+        .jordans{
+            width: 450px;
+            height: 450px;
+            border: 1px solid lightgray;
+            margin:0;
+            margin-bottom: 10px;
+            
+        }
+
+        .col-lg-4{
+            padding: 0;
+            margin: 0;
+            text-align: center;
+            
+            
+        }
+        
+        .btn{
+            margin-left: 0px;
+            margin-top: 20px;
+            margin-bottom: 22px;
+            background-color: black;
+            color: white;
+            height: 50px;
+            width: 80px;
+            border-radius: 4px;
+            font-size: 12px;
+            display: none;
+        }
+        a:visited{
+            color: white;
+        }
+        
+        .subby{
+            color: gray;
+        }
+        
+        .subtitle{
+            margin-left: 60%;
+        }
+        
+        #icon{
+            color: gray;
+            margin-right: 20px;
+            padding-top: 11px;
+        }  
+        #login{
+            position: absolute;
+            right: 120px;
+            top: 18px;
+            list-style-type: none;
+            color: gray !important;
+        }
+#welcome{
+    position: absolute;
+            left: 100px;
+            top: 18px;
+            list-style-type: none;
+            color: gray !important;
+}
+    
+#logOut{
+    position: absolute;
+            right: 120px;
+            top: 18px;
+            list-style-type: none;
+            color: gray !important;
+}
+        #icon{
+            position:absolute;
+            right: 5%;
+            top: 10px;
+           
+        }
+        h3{
+            color: black;
+        }
+        h3:visited,h3:hover{
+            color: black;
+        }
+        .hideMe{
+            display:auto;
+            height:auto;
+           
+        }
+        
+        #formy,#formy2{
+            display: none;
+            position: absolute;
+            top:40%;
+            margin-top: -230px;
+            margin-left: 50%;
+            left:-230px;
+            height: auto;
+            width: 460px;
+            background-color: white;
+            z-index: 3;
+            text-align: center; 
+            padding: 40px;
+           
+        }
+#notMember{
+    font-size: 14px;
+   
+}
+
+
+#formy2{
+    display: none;
+}
+
+
+        #email,#password,#firstName,#lastName,#birth{
+            margin-bottom: 20px;
+        }
+#birth{
+    color: gray;
+    padding-left: .6em;
+}
+
+#male,#female{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    color: gray;
+    width: 140px;
+    height: 60px;
+}
+#gender{
+    align-content: center;
+}
+        
+        input{
+            width: 300px;
+            height: 40px;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+.shoeSize{
+    width: 150px;
+    margin-bottom: .2em;
+}
+        .x,#exitImg{
+            font-family: sans-serif;
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 22px;
+        }
+#exitImg{
+    display: none;
+    z-index: 1001;
+}
+        #logoLogin{
+            width: 200px;
+        }
+        #log,#log2{
+            width: 300px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 2px;
+            padding: 8px;    
+        }
+        
+        #fDiv{
+            position: absolute;
+            top: 0;
+            background-color: white;
+            width: 100%;
+            height: 130%;
+            z-index: -1;
+            opacity: .9;
+        }
+        #snkrs{
+            position: absolute;
+            left: 10px;
+            top: 0px;
+            height: 60px;
+            width: 60px;
+        }
+
+@media only screen and (max-width: 1358px) {
+  
+    .jordans{
+        width: 360px;
+        height: 360px;
+    }
+}
+
+
+@media only screen and (max-width: 1084px) {
+  
+    .jordans{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* Home page css ends here */
+
+/* CSS for individual sneakers pages */
+
+.caroDisplay{
+   display: none;
+}
+
+        #img1Div{
+            margin-left: 40px;
+            margin-top: 20px;
+            
+        }
+        #img2,#img4{
+            margin-left: 10px;
+            
+        }
+        #img3Div{
+            margin-left: 40px;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            
+        }
+        
+        .sizy{
+            height: 400px;
+            width: 400px;
+            border: 1px solid lightgray;
+        }
+        
+        #description{
+            height: 400px;
+            width: 400px;
+            position: fixed;
+            top: 75px;
+            right: 80px;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+#description p{
+    font-family: serif;
+}
+        
+        .btn2{
+            margin-left: 10px;
+            margin-top: 20px;
+            background-color: black;
+            color: white;
+            height: 50px;
+            width: auto;
+            border-radius: 4px;
+            font-size: 12px;
+            
+        }
+
+@media only screen and (max-width: 1337px) {
+    .sizy{
+        height: 360px;
+        width: 360px;
+    }
+    
+}
+
+@media only screen and (max-width: 1250px) {
+     .sizy{
+        height: 340px;
+        width: 340px;
+    }
+    
+}
+
+@media only screen and (max-width: 1210px) {
+    .caroDisplay{
+        display: block;
+    }
+    .sizy{
+        display: none;
+    }
+    #description{
+        position: relative;
+            margin-top: -200px;
+            margin-left: 50%;
+            left:-200px;
+            margin-bottom: 4em;     
+    }
+}
+
+
+
+
+/* CSS for individual sneaker pages ends here */
+
+/* CSS for checkout page begins here */
+
+     #checkoutForm{
+            height: 360px;
+            width: 360px;
+            background-color: black;
+             position: absolute;
+            top: 20%;
+            right: 12%;
+            text-align: center;
+               
+        }
+        #checkoutDiv{
+            position: absolute;
+            top: 20%;
+            right: 12%;
+            text-align: center;
+        }
+    
+        #checkOutBtn{
+            background-color: #ff4500;
+            color: white;
+            border: none;
+            width: 280px;
+            height: 40px;
+           margin-top: 30px;
+            font-size: 14px;
+            border-radius: 2px;
+            
+        }
+        
+        #checkoutSummary,#checkoutText,#total{
+            text-align: left;
+            color: white;
+           margin-left: 1.3em;
+        }
+        
+        #checkoutSummary{
+            padding-top: 1em;
+            padding-bottom: 1.5em;
+        }
+        
+        #checkoutText{
+            font-size: 14px;
+            font-family: sans-serif;
+        }
+        
+        #items ul{
+            list-style-type: none;
+        }
+
+#remove{
+    font-size: 12px;
+    width: auto;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+    height:20px;
+    padding: 0;
+    font-family: sans-serif;
+    margin-left: 20px;
+    position: relative;
+    top: -100px;
+    left: 160px;
+}
+#smallPhoto{
+    width: 160px;
+    padding-bottom: 20px;
+    border: 1px solid lightgray;
+}
+        
+#cartSnkName {
+    position:relative;top:-120px;left:170px;
+    font-weight: bold;
+    
+}
+#cartSnkSize{
+    position:relative;top:-105px;left:170px;
+    color: gray;
+    font-size: 14px;
+    
+}
+#cartSnkPrice{ position:relative;top:-200px;left:500px;font-family:sans-serif;color:gray;
+    font-size: 14px;
+}
+#mensShoe{
+    position:relative;top:-110px;left:170px;
+    color: gray;
+    font-size: 14px;
+}
+
+  
+        #items h5{
+            padding-top: 1em;
+            padding-left: 1em;
+        }
+        #items{
+           
+            width: 600px;
+            position: absolute;
+            top: 20%;
+            left: 12%;
+        }
+#indItem{
+    height: 180px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+        
+       @media only screen and (max-width: 1265px){
+           
+            #items{
+                left: 8%;
+            }
+            #checkoutForm{
+                right: 8%;
+            }
+        }
+        
+       
+        
+        @media only screen and (max-width: 1160px){
+            
+            #items{
+                left:6%;
+            }
+            #checkoutForm{
+                right: 6%;
+            }
+        }
+
+         @media only screen and (max-width: 1094px){
+             
+             #items,#checkoutForm{
+                 left: 0px;
+                 width: 100%;
+                 position: relative;
+             }
+             
+            
+            #checkoutForm{
+                border-top: 1px solid lightgray;
+                border-bottom: 1px solid lightgray;
+                background-color: white;
+                top: 2em;
+                color: black;
+                height: auto;
+                
+            }
+             #checkOutBtn{
+                 position: fixed;
+                 bottom: 0px;
+                width: 100%;
+                 left: 0px;
+                 background-color: black;
+                 
+             }
+             
+        #checkoutSummary,#checkoutText,#total{
+            color: black;
+        }
+        }
+	
+
+/* CSS for checkout page ends here */        
