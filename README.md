@@ -6,6 +6,8 @@ SNKRS is an online shopping website similar to Nike's SNKRs website. The custome
 ## Demo video
 Youtube : https://www.youtube.com/watch?v=xVdgv-t7UuE
 
+![Screenshpt] (snkrs.png)
+
 ## Technologies
 - PHP
 - MySQL
